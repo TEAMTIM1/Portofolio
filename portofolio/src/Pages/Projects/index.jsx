@@ -2,6 +2,7 @@
 import ProjectItemps from './ProjectItems';
 import projectData from '../../utils/projectData';
 
+
 const Projects = () => {
   return (
     <div id='project' className=" max-w-[1040px] m-auto md:pl-20 py-16">
