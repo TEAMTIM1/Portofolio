@@ -7,15 +7,11 @@ import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
 import Main from "./Pages/Main";
 
-
 // style import
 import './index.css';
 
-
-
 function App() {
   
-
   return (
     <div className="App">
       
@@ -25,7 +21,6 @@ function App() {
         < Projects />
         <About />
         <Contact/>
-      
 
     </div>
   )
