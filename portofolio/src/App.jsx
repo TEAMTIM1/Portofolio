@@ -1,13 +1,12 @@
 
 // Local import 
-import NavBar from "./components/NavBar";
-import Experience from "./components/Experience";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Main from "./components/Main";
-import Exo from "./Particles/particles-config";
+import NavBar from "./Pages/NavBar";
+import Experience from "./Pages/Experience";
+import About from "./Pages/About";
+import Projects from "./Pages/Projects";
+import Contact from "./Pages/Contact";
+import Main from "./Pages/Main";
+
 
 // style import
 import './index.css';
@@ -25,6 +24,7 @@ function App() {
         < Experience/>
         < Projects />
         <About />
+        <Contact/>
       
 
     </div>

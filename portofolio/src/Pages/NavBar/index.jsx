@@ -15,16 +15,15 @@ import { Link } from 'react-scroll';
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [hidden, sethidden] = useState(true);
-  console.log(hidden + " state");
+  
   const handelNav = () => {
     setNav(!nav)
-    console.log(hidden + " handelnav");
     sethidden(!hidden)
   }
 
   const handelClick = () => {
     sethidden(true)
-    console.log(hidden + " handelClick");
+    setNav(false)
   };
 
   
