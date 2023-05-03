@@ -26,7 +26,7 @@ const NavBar = () => {
     setNav(false)
   };
 
-  
+
   const elementClassName = hidden ? "hidden" : "";
 
   return (
