@@ -5,7 +5,7 @@ const projectData = [
       description: 'A web application for viewing information about Pokémon, built with TypeScript and React.',
       stack: ['TypeScript', 'React', 'PokéAPI'],
       img: "pokedex.png",
-      lien: "https://pokedex-nine-ruddy.vercel.app"
+      path: "https://pokedex-nine-ruddy.vercel.app"
     },
 /*     {
       title: 'Weather App',
@@ -20,7 +20,7 @@ const projectData = [
         description: 'A web application for booking a psycolog online, built with Tailwindcss and React.',
         stack: ['Tailwindcss', 'React', 'Node'],
         img: "mytherapist.png",
-        lien:"https://github.com/O-clock-Ohm/projet-07-my-therapist-front"
+        path:"https://github.com/O-clock-Ohm/projet-07-my-therapist-front"
       },
       
   ];
