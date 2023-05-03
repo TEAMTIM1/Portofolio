@@ -5,7 +5,7 @@ import data from '../../utils/data';
 
 const Experience = () => {
   return (
-    <div id='experience' className='grid grid-cols-1 md:grid-cols-2]'>
+    <div id='experience' className='grid grid-cols-1 md:grid-cols-2'>
       <div className='h-auto max-w-full md:pl-20 p-4 py-16'>
         <h1 className='text-4xl font-bold text-center text-[#001b5e] pb-6'>Experience</h1>
         {data.map((items, key) => (
@@ -24,7 +24,7 @@ const Experience = () => {
           </ExperienceItem>
         ))}
       </div>
-      <div className='h-auto max-w-full md:pl-20 p-4 py-16'>
+      <div className=' md:pl-20 p-4 py-16'>
         <Skills />
       </div>
     </div>
