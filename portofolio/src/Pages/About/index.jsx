@@ -14,7 +14,6 @@ const About = () => {
               Salut ! Je m'appelle Hatim et je suis né en 1991 à Casablanca. J'ai étudié dans le domaine de l'automobile et actuellement, je travaille en tant que conseiller commercial dans une concession automobile. Je suis en reconversion professionnelle dans le développement web. Après une formation intensive de 6 mois à l'école O'Clock, j'ai élargi mes horizons et acquis de nouvelles compétences qui me permettront d'aborder des projets ambitieux dans ce domaine passionnant.
 
               En dehors du travail, j'aime voyager et découvrir de nouveaux endroits. J'ai une passion pour la cuisine asiatique et la street food, et j'aime beaucoup expérimenter de nouvelles recettes. J'ai également une culture sportive assez développée et je pratique régulièrement plusieurs disciplines telles que le football et la course à pied. J'aime m'investir dans ces activités car elles me permettent de rester en forme et de me vider l'esprit après une journée de travail bien remplie.
-
             </p>
           </div>
         </div>
