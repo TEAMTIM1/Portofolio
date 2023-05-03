@@ -6,6 +6,7 @@ import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import image from '/assets/bg.png';
 import picture from '/assets/profilpicture.png'
 
+
 // code
 const Main = () => {
   return (
