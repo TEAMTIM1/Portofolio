@@ -11,16 +11,17 @@ import Main from "./Pages/Main";
 import './index.css';
 
 function App() {
-  
+
   return (
     <div className="App">
       
-        < NavBar /> 
-        < Main />
-        < Experience/>
-        < Projects />
-        <About />
-        <Contact/>
+
+      < NavBar />
+      < Main />
+      < Experience />
+      < Projects />
+      < About />
+      < Contact />
 
     </div>
   )

@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     
    <div className="">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e] pb-6">Skills</h1>
+      <h1 className="text-4xl font-bold text-center text-[#fe4d03] pb-6">Skills</h1>
       {skillsData.map((skill, index) => (
         <div key={index} className="my-4 ">
           <div className={`text-base font-medium ${skill.textColor}`}>{skill.skill}</div>
