@@ -7,16 +7,17 @@ const projectData = [
       img: "pokedex.png",
       path: "https://pokedex-nine-ruddy.vercel.app"
     },
-/*     {
+     {
       title: 'Weather App',
       description: 'A web application for checking the weather in your area, built with Next.js and the OpenWeather API.',
-      stack: ['Next.js', 'React', 'OpenWeather API'],
-      img: "img1.png"
+      stack: ['Next.js', 'TypeScript', 'OpenWeather API'],
+      img: "weatherapp.png",
+      path: "https://weather-tim-app.vercel.app/"
       
     },
-    */
+    
     {
-        title: 'My therapist',
+        title: 'My therapist (Bientot :) )',
         description: 'A web application for booking a psycolog online, built with Tailwindcss and React.',
         stack: ['Tailwindcss', 'React', 'Node'],
         img: "mytherapist.png",
