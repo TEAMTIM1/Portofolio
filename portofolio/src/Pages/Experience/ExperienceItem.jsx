@@ -1,4 +1,3 @@
-import image from '/assets/bg.png';
 
 const ExperienceItem = ({ title, company, startYear, endYear, children }) => {
   return (

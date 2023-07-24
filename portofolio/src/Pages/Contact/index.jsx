@@ -1,6 +1,5 @@
 import Input from "../../components/Form/Form";
 import Textarea from "../../components/Textarea";
-import backgroundImage from '/assets/bgimage.jpg';
 
 const Contact = () => {
   

@@ -1,6 +1,5 @@
 import React from 'react';
 import Tableau from '../../utils/presentation';
-import backgroundImage from '/assets/bgimage.jpg';
 
 const About = () => {
 
