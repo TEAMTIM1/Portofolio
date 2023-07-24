@@ -1,26 +1,36 @@
-// Animation and icons import
+import React, { useState, useRef } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import Video from '/assets/video.mp4';
 
-// local import
-import image from '/assets/video.mp4';
-import picture from '/assets/profilpicture.png'
-import cv from '../../../public/assets/ERRAGRAGUI HATIM.pdf'
+const Main = ({ onVideoLoad }) => {
+  const [autoplay, setAutoplay] = useState(true);
+  const videoRef = useRef(null);
 
-// code de la main page
-const Main = () => {
+  const handleVideoLoad = () => {
+    
+    setTimeout(() => {
+      setAutoplay(false);
+      if (videoRef.current) {
+        videoRef.current.pause();
+      }
+    }, 5000);
+    onVideoLoad();
+  };
+
   return (
-    <div id='home' className=' h-full w-full relative'>
-      <video className=' w-full'
-        src={image}
-        autoPlay
+    <div id='home' className='h-auto w-full relative'>
+      <video
+        ref={videoRef}
+        className='w-full'
+        src={Video}
+        autoPlay={autoplay}
         loop
         muted
+        onLoadedData={handleVideoLoad}
       />
     </div>
+  );
+};
 
-
-  )
-}
-
-export default Main
+export default Main;

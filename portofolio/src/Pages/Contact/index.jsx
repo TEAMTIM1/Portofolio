@@ -3,15 +3,11 @@ import Textarea from "../../components/Textarea";
 import backgroundImage from '/assets/bgimage.jpg';
 
 const Contact = () => {
-  const sectionStyle = {
-    backgroundImage: `url(${backgroundImage})`,
-    backgroundSize: '100% ',
-
-  };
+  
   return (
     <div
       id="contact"
-      className={`m-auto w-full h-screen flex items-center flex-col px-16 py-16`} style={sectionStyle}
+      className={` bg-slate-300/60 w-full h-screen flex items-center flex-col px-16 py-16`}
     >
       <h1
         className="text-3xl text-center m-4 text-[#fe4d03] font-bold"

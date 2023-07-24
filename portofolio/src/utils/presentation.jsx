@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import cv from '../../public/assets/ERRAGRAGUI HATIM.pdf';
+import { FaGithub, FaLinkedinIn, FaUpload } from 'react-icons/fa';
+import cv from '../../public/assets/CV.pdf';
 
 const Tableau = () => {
   return (
@@ -36,19 +36,19 @@ const Tableau = () => {
         </tr>
         <tr>
           <td className="py-4 px-6 bg-gray-200 border-b font-bold">Centres d'intérêt:</td>
-          <td className="py-4 px-6 border-b">Voyages, cuisine asiatique, street food, football, course à pied</td>
+          <td className="py-4 px-6 border-b">Voyages, street food, Paddel, Surf</td>
         </tr>
-        <tr>
+        <tr className=''>
           <td className="py-4 px-6 bg-gray-200 border-b font-bold">Liens:</td>
-          <td className="py-4 px-6 border-b">
+          <td className="py-4 px-6 border-b grid grid-cols-3">
             <a href="https://github.com/TEAMTIM1" target="_blank" rel="noopener noreferrer">
-              <FaGithub className="cursor-pointer inline-block mr-2" size={20} />
+              <FaGithub className="cursor-pointer inline-block mr-2" size={40} />
             </a>
             <a href="https://www.linkedin.com/in/er-ragragui-hatim" target="_blank" rel="noopener noreferrer">
-              <FaLinkedinIn className="cursor-pointer inline-block mr-2" size={20} />
+              <FaLinkedinIn className="cursor-pointer inline-block mr-2" size={40} />
             </a>
-            <a className="btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-xs w-12" href={cv} download>
-              Télécharger mon CV
+            <a className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-12" href={cv} download> CV
+            < FaUpload className="cursor-pointer inline-block mr-2" size={20} />
             </a>
           </td>
         </tr>
