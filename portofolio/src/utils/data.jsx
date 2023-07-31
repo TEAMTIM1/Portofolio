@@ -1,28 +1,30 @@
 const data = [
-
   {
-    title: "Conseiller Commercial- Automobile",
+    title: "Conseiller commercial Véhicule neuf/occasion B2B B2C",
     company: "PSA Retail",
-    startYear: 2010,
-    endYear: 2015,
+    startYear: 2017,
+    endYear: "jusqu'à aujourd'hui",
     responsibilities: [
-      "Vente de voitures neuves et d'occasion à des clients",
-      "Géré un portefeuille de clients et développé de nouvelles opportunités d'affaires",
-      "Collaboré avec les équipes financières et de service pour offrir une expérience client complète",
-      "Assisté les clients lors d'essais routiers et fourni des démonstrations de produits."
+      "Vente de solutions de financement (LOA - VAC - LLD) 60% de taux de pénétration.",
+      "Accompagnement clients dans le processus d’achat et financement de véhicules",
+      "Encadrement des nouveaux arrivants et des alternants",
+      "Développer les ventes et les indicateurs commerciaux dans un souci d’atteindre les objectifs",
+      "Vente de solution annexes (Gravage, traqueur coyote, Waxol) meilleur vendeur de traqueur plaque Est"
     ]
   },
   {
     title: "Formation- Web Development",
     company: "O'clock",
     startYear: 2021,
-    endYear: 2021,
+    endYear: 2022,
     technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js"],
     responsibilities: [
-      "J'ai suivi avec succès un cours de développement web full-stack de 6 mois",
-      "J'ai développé plusieurs projets en utilisant React et Node.js",
-      "J'ai appris et appliqué les meilleures pratiques pour le développement et le déploiement web",
-      "J'ai collaboré avec d'autres étudiants sur des projets de groupe"
+      "Sélection des technologies et formation de l'équipe sur Tailwind CSS",
+      "Collaboration étroite avec le back-end pour assurer l'intégration fluide des fonctionnalités",
+      "Conception et développement d'une interface web responsive",
+      "Planification des tâches et réunions matinales pour suivre les avancées",
+      "Assistance technique pour résoudre les problèmes des collègues",
+      "Résultats de qualité dans un environnement dynamique et axé sur les résultats"
     ]
   }
 ];

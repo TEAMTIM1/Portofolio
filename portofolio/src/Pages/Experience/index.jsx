@@ -6,10 +6,8 @@ import backgroundImage from '/assets/bgimage.jpg';
 
 const Experience = () => {
 
-
   return (
-    <div id='experience' className=' bg-[#b8ecd2] min-h-screen grid grid-cols-1 md:grid-cols-2'>
-      
+    <div id='experience' className=' bg-[#b8ecd2] min-h-screen grid grid-cols-1 md:grid-cols-2'>   
       <div className='  md:pl-20 p-4 py-16'>
         <h1 className='text-4xl font-bold text-center text-[#fe4d03] pb-6'>Experience</h1>
         {data.map((items, key) => (

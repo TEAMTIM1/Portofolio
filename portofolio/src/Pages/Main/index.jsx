@@ -19,7 +19,7 @@ const Main = ({ onVideoLoad }) => {
   };
 
   return (
-    <div id='home' className='h-auto w-full relative'>
+    <div id='home' className=' w-full '>
       <video
         ref={videoRef}
         className='w-full'

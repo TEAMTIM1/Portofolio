@@ -18,8 +18,8 @@ const projectData = [
     
     {
         title: 'My therapist)',
-        description: 'A web application for booking a psycolog online, built with Tailwindcss and React.',
-        stack: ['Tailwindcss', 'ReactJS', 'NodeJS'],
+        description: 'A web application for booking a psycolog online.',
+        stack: ['Full Stack'],
         img: "mytherapist.png",
         path:"https://my-therapist.netlify.app/"
       },

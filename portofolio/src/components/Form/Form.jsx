@@ -1,5 +1,5 @@
 
-const Input = ({ AdditionalClasses, required, label, type, name}) => {
+const Input = ({ AdditionalClasses, required, label, type, name, placeholder}) => {
     return (
         <div className={AdditionalClasses}>
             <label
@@ -10,6 +10,7 @@ const Input = ({ AdditionalClasses, required, label, type, name}) => {
                 type={type}
                 name={name}
                 id={name}
+                placeholder={placeholder}
                 required={required}
                 />
         </div>

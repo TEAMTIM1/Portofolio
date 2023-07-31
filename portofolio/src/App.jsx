@@ -13,7 +13,7 @@ function App() {
   const handleVideoLoad = () => {
     setIsVideoLoaded(true);
   };
-
+  
   return (
     <div className="App">
       <NavBar />
