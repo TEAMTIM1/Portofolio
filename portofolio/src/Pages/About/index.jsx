@@ -18,12 +18,11 @@ const About = () => {
   const controls = useAnimation();
   const [ref, inView] = useInView({ triggerOnce: true });
 
-  ReactGA.pageview(window.location.pathname + window.location.search);
-
   React.useEffect(() => {
     if (inView) {
       controls.start('visible');
     }
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, [controls, inView]);
 
   return (
