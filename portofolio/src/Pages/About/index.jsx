@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
+import ReactGA from 'react-ga';
 import { useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FaGithub, FaLinkedinIn, FaUpload } from 'react-icons/fa';
@@ -16,6 +17,8 @@ const About = () => {
 
   const controls = useAnimation();
   const [ref, inView] = useInView({ triggerOnce: true });
+
+  ReactGA.pageview(window.location.pathname + window.location.search);
 
   React.useEffect(() => {
     if (inView) {
