@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import ReactGA from 'react-ga';
 import { TypeAnimation } from 'react-type-animation';
 import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import Video from '/assets/video.mp4';
@@ -17,6 +18,9 @@ const Main = ({ onVideoLoad }) => {
     }, 5000);
     onVideoLoad();
   };
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   return (
     <div id='home' className=' w-full '>

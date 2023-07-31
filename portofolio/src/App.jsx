@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ReactGA from 'react-ga';
 import NavBar from "./Pages/NavBar";
 import Experience from "./Pages/Experience";
 import About from "./Pages/About";
@@ -13,6 +14,8 @@ function App() {
   const handleVideoLoad = () => {
     setIsVideoLoaded(true);
   };
+
+  ReactGA.initialize('G-QKGXLHPFGK');
   
   return (
     <div className="App">
